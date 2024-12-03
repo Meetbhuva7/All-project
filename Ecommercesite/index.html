@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlueStore | Ecommerce Website Design</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="./logos.png" alt="BlueStore Logo" />
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </nav>
+          <div class="cart-menu">
+            <img src="https://via.placeholder.com/30" alt="Cart" />
+            <img
+              src="https://via.placeholder.com/30"
+              class="menu-icon"
+              alt="Menu Icon"
+              onclick="menutoggle()"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Unique Collection<br />With New Style!</h1>
+            <p>
+              Traditional Clothes May Be Defined As The Collection Of Garments,
+              Jewellery,<br />
+              And Accessories Rooted In The Past Worn By An Identifiable Group
+              Of People.
+            </p>
+            <a href="#" class="btn">Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img
+              src="./Beautiful Multi Navratri Lehenga Choli.jpeg"
+              alt="Main Product Image"
+              height="500px"
+              width="500px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------- featured categories ------------->
+
+    <div class="containers">
+      <div class="featured-categories">
+        <h2>Featured Categories</h2>
+        <div class="categories">
+          <div class="category">
+            <img src="./hv.png" alt="Traditional Wear" />
+            <p>Traditional Wear</p>
+          </div>
+          <div class="category">
+            <img src="./je.jpeg" alt="Modern Outfits" />
+            <p>Modern Outfits</p>
+          </div>
+          <div class="category">
+            <img src="./aa.jpeg" alt="Accessories" />
+            <p>Accessories</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="products">
+          <div class="product">
+            <img src="./2.jpeg" alt="Chaniya Choli" />
+            <h3>Chaniya Choli</h3>
+            <p class="price">$50</p>
+            <div class="rating">
+              <span> &#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9734;</span>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+          <div class="product">
+            <img src="./3.jpeg" alt="Designer Kurta" />
+            <h3>Dark Blue Printed Choli</h3>
+            <p class="price">$40</p>
+            <div class="rating">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9734;</span>
+              <span>&#9734;</span>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+          <div class="product">
+            <img src="./4.jpeg" alt="Elegant Saree" />
+            <h3>Black printed choli</h3>
+            <p class="price">$60</p>
+            <div class="rating">
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+              <span>&#9733;</span>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="latest-title">Latest Products</h2>
+      <div class="latest-products-row">
+        <div class="latest-product col-4">
+          <div class="product-image-wrapper">
+            <img src="./je.jpeg" alt="Kundan Necklace Set" />
+          </div>
+          <h4 class="product-name">Kundan Necklace Set</h4>
+          <div class="product-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star half">&#9733;</span>
+          </div>
+          <p class="product-price">₹9900</p>
+        </div>
+        <div class="latest-product col-4">
+          <div class="product-image-wrapper">
+            <img src="./me2.jpeg" alt="Kundan Necklace Set" />
+          </div>
+          <h4 class="product-name">Multicolor Printed Choli</h4>
+          <div class="product-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star half">&#9733;</span>
+          </div>
+          <p class="product-price">₹9000</p>
+        </div>
+        <div class="latest-product col-4">
+          <div class="product-image-wrapper">
+            <img src="./shv.jpeg" alt="Kundan Necklace Set" />
+          </div>
+          <h4 class="product-name">Gold Stonework Jutti</h4>
+          <div class="product-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="product-price">₹4500</p>
+        </div>
+        <div class="latest-product col-4">
+          <div class="product-image-wrapper">
+            <img src="./je.jpeg" alt="Kundan Necklace Set" />
+          </div>
+          <h4 class="product-name">Kundan Necklace Set</h4>
+          <div class="product-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="product-price">₹12000</p>
+        </div>
+        <div class="latest-product col-4">
+          <div class="product-image-wrapper">
+            <img src="./w.jpeg" alt="Kundan Necklace Set" />
+          </div>
+          <h4 class="product-name">Kundan Necklace Set</h4>
+          <div class="product-rating">
+            <span class="star full">&#9733;</span>
+            <span class="star full">&#9733;</span>
+            <span class="star full">&#9733;</span>
+            <span class="star full">&#9733;</span>
+            <span class="star half">&#9733;</span>
+          </div>
+          <p class="product-price">₹1000</p>
+        </div>
+        <div class="latest-product col-4" style="width: 10px">
+          <div class="product-image-wrapper">
+            <img src="./sh.jpeg" alt="Kundan Necklace Set" />
+          </div>
+          <h4 class="product-name">Red Embroidered Diana</h4>
+          <div class="product-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="product-price">₹3000</p>
+        </div>
+        <div class="latest-product col-4">
+          <div class="product-image-wrapper">
+            <img src="./me.jpeg" alt="Kundan Necklace Set" />
+          </div>
+          <h4 class="product-name">Multicolor Printed Choli</h4>
+          <div class="product-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="product-price">₹7500</p>
+        </div>
+        <div class="latest-product col-4">
+          <div class="product-image-wrapper">
+            <img src="./8.jpeg" alt="Kundan Necklace Set" />
+          </div>
+          <h4 class="product-name">Brass Gold Necklace</h4>
+          <div class="product-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <p class="product-price">₹6000</p>
+        </div>
+      </div>
+    </div>
+
+    <!------------- offer ---------------->
+    <div class="offer">
+      <div class="">
+        <div class="row">
+          <div class="col-2">
+            <img src="./samrt.jpg" class="offer-img" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on BlueStore</p>
+            <h1>SmartWatch</h1>
+            <small
+              >Noise Twist Go Round dial Smartwatch with BT Calling, 1.39"
+              Display, Metal Build, 100+ Watch Faces, IP68, Sleep Tracking, 100+
+              Sports Modes, 24/7 Heart Rate Monitoring (Rose Pink)</small
+            >
+            <a
+              href=""
+              class="btn"
+              style="display: block; width: 175px; margin-top: 25px"
+              >Buy Now &#8594;</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------- testimonial ------------------->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <span class="quote-left">&#8220;</span>
+            <p>
+              Metal build: Discover the perfect blend of sophistication and
+              innovation featuring a glossy metal build and a sleek dial.;1.39"
+              display: See every detail come to life on your wrist.
+            </p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+            <img src="./user.jpeg" />
+            <h3>Shivani Chauhan</h3>
+          </div>
+          <div class="col-3">
+            <span class="quote-left">&#8220;</span>
+            <p>
+              Productivity suite- Maximise efficiency with minimal effort thanks
+              to an assortment of features like voice assistance, calculator,
+              weather, and music control, a charging cable, and a user manual.
+            </p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+            <img src="./user3.jpeg" />
+            <h3>Janvi Rathod</h3>
+          </div>
+          <div class="col-3">
+            <span class="quote-left">&#8220;</span>
+            <p>
+              Multiple straps and style options: Effortlessly switch between
+              looks to complement every occasion.; What s in the box: The
+              contents in the box include the ColorFit Twist Go smartwatch.
+            </p>
+            <div class="rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9734;</span>
+              <span class="star">&#9734;</span>
+            </div>
+            <img src="./user4.jpeg" />
+            <h3>Nisha Parmar</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------------- footer ------------------->
+    <div class="footer" style="margin-top: 30px">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="./jjj.png" />
+              <img src="./jjjj.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./logos.png" />
+            <p>
+              Choose words and descriptive adjectives that highlight the unique
+              features of the clothing item.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">2024 - women's collection</p>
+      </div>
+    </div>
+    <!----------------------- js for toggle menu -------------------->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
